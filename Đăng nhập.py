@@ -1,7 +1,7 @@
 import tkinter as tk
 
 root = tk.Tk()
-root.title("ĐĂNG NHẬP")
+root.title("LOGIN_FORM")
 
 # Kích thước form
 window_width = 300
