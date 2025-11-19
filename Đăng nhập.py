@@ -21,7 +21,7 @@ root.configure(bg = "#000000")
 
 # ============================= Giao diện =============================
 # ----------------------------- Log in -----------------------------
-tk.Label(root, text = "LOG IN", font = ("Arial", 15, "bold"),
+tk.Label(root, text = "LOGIN", font = ("Arial", 15, "bold"),
          bg = "#000000", fg = "#00B3FF").place(relx = 0.5, rely = 0.1, anchor = "center")
 # ----------------------------- User -----------------------------
 tk.Label(root, text = "Username", font = ("Arial", 12),

@@ -27,9 +27,9 @@ def Connect_Database():
     try: 
         conn = pyodbc.connect(
                 r"DRIVER={ODBC Driver 17 for SQL Server};"
-                r"SERVER=LAPTOP-VO3C4ONL;"
-                r"DATABASE=Quan_Ly_Khach_San_python;"
-                r"Trusted_Connection=yes;"               
+                r"SERVER=(localdb)\MSSQLLocalDB;"
+                r"DATABASE=Quan_Ly_Khach_San_Python;"
+                r"Trusted_Connection=yes;"                       
         )
         return conn
     except Exception as e:
